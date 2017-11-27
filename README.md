@@ -7,8 +7,10 @@ A collection of scripts to help clean your facebook profile.
 ##### Remove friends
 
 1. Navigate to `facebook.com/me/friends` and scroll down until all friends are loaded.
-2. Open browser console, paste the code from [`/src/scripts/friendsRemover.js`](/src/scripts/friendsRemover.js) and hit `ENTER`.
-3. Wait for the script to finish deleting your friends.
+2. Copy the content of the script from [`/src/scripts/friendsRemover.js`](/src/scripts/friendsRemover.js).
+3. Change the value of the `ownerProfileId ` variable to your facebook profile id.
+4. Open browser console, paste the code and hit `ENTER`.
+5. Wait for the script to finish deleting your friends.
 
 > _No notification is displayed on completion._
 
